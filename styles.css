@@ -5,10 +5,6 @@
   padding: 0;
 }
 
-nav {
-  display: fixed;
-}
-
 p {
   font-family: "Roboto Slab", serif;
   color: #E5E9F0;
@@ -19,6 +15,7 @@ p {
 h1,h2,h3 {
   font-family: 'PT Sans', sans-serif;
   color: #ECEFF4;
+  padding-bottom: 0.5rem;
 }
 
 h1 {
@@ -50,9 +47,7 @@ hr {
   color: #E5E9F0;
 }
 
-body {
-  background-color: #434C5E;
-}
+
 
 /* class styles */
 .italic {
@@ -72,8 +67,24 @@ img.floater {
   float:none;
 }
 
+/* Tables */
 table {
   text-align:center;
+  margin: 1rem;
+  border: 1px solid #ECEFF4;
+  border-collapse: collapse;
+  width: 50%;
+}
+th {
+  padding: 1rem;
+  color: #ECEFF4;
+  font-family: 'PT Sans', sans-serif;
+  border-bottom: 1px solid #ECEFF4;
+}
+td {
+  padding: 0.5rem;
+  color: #ECEFF4;
+  font-family: "Roboto Slab", serif;
 }
 
 /* media queries */
