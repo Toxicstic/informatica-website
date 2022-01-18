@@ -1,9 +1,19 @@
+body {
+  background-image: url("./assets/background.png");
+  background-repeat: repeat;
+}
+
+main>div {
+  padding: 7.5rem 10rem 0 10rem;
+}
+
 main {
-  margin: 2.5rem 10rem 0 10rem;
+  background-color: rgba(67, 76, 94, 0.75);
 }
 
 @media  (min-width: 1024px) {
-  main {
-    margin: 2.5rem 25% 0 25%;
+  main>div {
+    padding: 7.5rem 25% 0 25%;
   }
 }
+
