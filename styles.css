@@ -47,8 +47,6 @@ hr {
   color: #E5E9F0;
 }
 
-
-
 /* class styles */
 .italic {
   font-style: italic;
@@ -63,6 +61,7 @@ img {
   border: 4px solid #ECEFF4;
   border-radius: 1rem;
 }
+
 img.floater {
   float:none;
 }
@@ -73,18 +72,27 @@ table {
   margin: 1rem;
   border: 1px solid #ECEFF4;
   border-collapse: collapse;
-  width: 50%;
+  width: 75%;
 }
+
 th {
   padding: 1rem;
   color: #ECEFF4;
   font-family: 'PT Sans', sans-serif;
   border-bottom: 1px solid #ECEFF4;
+  text-align: center;
 }
+
 td {
   padding: 0.5rem;
   color: #ECEFF4;
   font-family: "Roboto Slab", serif;
+  text-align: left;
+  border-left: 1px solid #ECEFF4;
+}
+
+.table-fix {
+  border-top: 1px solid #ECEFF4;
 }
 
 /* media queries */
